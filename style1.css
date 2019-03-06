@@ -16,7 +16,7 @@ body {
 
 .nav{
     float: right;
-    padding-right: 0;
+    padding-right: 200px;
     padding-left: 0;
     
 
@@ -34,7 +34,7 @@ body {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
-  }
+    padding-right:
 
 
 /* footer */
@@ -76,45 +76,13 @@ h3, h2 {
 }
 
 /* portfolio page */
-
-.work {
-  position: relative;
-  float: left;
-  width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
+#card1 {
+    padding-top: 200px;
 }
+.card {
+    text-align: center;
+    padding-top: 200px;
 
-.work:nth-child(even) {
-  margin-right: 40px;
-}
-
-.work img {
-  width: 100%;
-  border: 0 none;
-  opacity: 0.8;
-}
-
-.work h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
-}
-
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
 }
 
 /* contact page */
